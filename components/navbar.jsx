@@ -45,7 +45,7 @@ export function Navbar({isDarkMode, setIsDarkMode}){
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3  ${isScroll ? "" : "bg-white/50 shadow-sm dark:border dark:border-white dark:bg-transparent"}`}>
             <li><a className="font-Ovo hover:text-gray-600 dark:hover:text-gray-300" href="#home">Hem</a></li>
             <li><a className="font-Ovo hover:text-gray-600 dark:hover:text-gray-300" href="#about">Om mig</a></li>
-            <li><a className="font-Ovo hover:text-gray-600 dark:hover:text-gray-300" href="#services">Mina tjänster</a></li>
+            <li><a className="font-Ovo hover:text-gray-600 dark:hover:text-gray-300" href="#services">Mina kunskaper</a></li>
             <li><a className="font-Ovo hover:text-gray-600 dark:hover:text-gray-300" href="#work">Portfolio</a></li>
             <li><a className="font-Ovo hover:text-gray-600 dark:hover:text-gray-300" href="#contact">Kontakta mig</a></li>
         </ul>
@@ -74,7 +74,7 @@ export function Navbar({isDarkMode, setIsDarkMode}){
 
             <li><a className="font-Ovo" onClick={closeMeny} href="#home">Hem</a></li>
             <li><a className="font-Ovo" onClick={closeMeny} href="#about">Om mig</a></li>
-            <li><a className="font-Ovo" onClick={closeMeny} href="#services">Mina tjänster</a></li>
+            <li><a className="font-Ovo" onClick={closeMeny} href="#services">Mina kunskaper</a></li>
             <li><a className="font-Ovo" onClick={closeMeny} href="#work">Portfolio</a></li>
             <li><a className="font-Ovo" onClick={closeMeny} href="#contact">Kontakta mig</a></li>
 
