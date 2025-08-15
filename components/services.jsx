@@ -20,13 +20,13 @@ export function Services() {
             initial={{y: -20, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{delay: 0.5, duration: 0.5}}
-            className="text-center text-5xl font-Ovo">Mina tjänster</motion.h2>
+            className="text-center text-5xl font-Ovo">Mina kunskaper</motion.h2>
 
             <motion.p
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{delay: 0.7, duration: 0.5}} 
-            className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Jag erbjuder webbutveckling, apputveckling och systemutveckling, vilket innebär att jag skapar och underhåller webbplatser, mobilapplikationer och skräddarsydda systemlösningar. Tjänsterna omfattar hela processen från idé och design till programmering, funktionalitet och användarupplevelse.</motion.p>
+            className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Jag har kunskap inom webbutveckling, apputveckling och systemutveckling, vilket innebär att jag skapar och underhåller webbplatser, mobilapplikationer och anpassade systemlösningar. Detta omfattar hela processen från idé och design till programmering, funktionalitet och användarupplevelse.</motion.p>
 
             <motion.div
             initial={{opacity: 0}}
